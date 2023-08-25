@@ -1,0 +1,29 @@
+.home-search {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-search-img {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+}
+
+.home-search-title {
+  color: white;
+  text-shadow: 1px 1px 2px rgb(129, 129, 129);
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 150px 40px 50px;
+  z-index: 10;
+}
+
+.home-search-button {
+}
